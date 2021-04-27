@@ -1,23 +1,25 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
-    <title>LINKS INTERNOS</title>
-
-
+    <title>Imagem Dinâmica</title>
 </head>
 
 <body>
-    <h1>Falamos sobre links</h1>
-    <h2>Aqui embaixo estão os links das páginas:</h2>
-    <p> <a href="index02.html" target="_self" rel="next">click para ser direcionado para pag02</a></p>
-    <p><a href="noticiaspag003.html" target="_self" type="next">click para ser direcionado para noticias na pagina 03</a></p>
+    <h1>imagem dinâmica</h1>
+    <p>aumente e diminua o tamanho do navegador </p>
+    <picture>
+        <source media='(max-width:750px)' srcset="imagens/p.png" type="image/png">
+        < <source media="(max-width:1000px)" srcset="imagens/m.png" type="image/png">
+            <img src="imagens/g.png" alt="Imagem flexível">
+
+    </picture>
+
+
 
 </body>
-
 
 </html>
